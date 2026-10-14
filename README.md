@@ -49,3 +49,9 @@ GUI 可视化操作流程：
 3.点击「开始检测」：左侧显示原始图片，右侧显示带检测框的结果图（红 / 绿 / 黄框对应不同灯色，框旁标注置信度）
 4.点击「清空内容」：重置界面，可重新选择图片进行新一轮检测
 
+七、效果展示
+![检测效果图](screenshot/traffic light7.jpg)
+![检测效果图](screenshot/traffic light9.jpg)
+![检测效果图](screenshot/traffic light10.jpg)
+
+
