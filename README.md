@@ -50,8 +50,8 @@ GUI 可视化操作流程：
 4.点击「清空内容」：重置界面，可重新选择图片进行新一轮检测
 
 七、效果展示
-![检测效果图](screenshot/traffic light7.jpg)
-![检测效果图](screenshot/traffic light9.jpg)
-![检测效果图](screenshot/traffic light10.jpg)
+![检测效果图](screenshot/traffic%20light7.jpg)
 
+![检测效果图](screenshot/traffic%20light9.jpg)
 
+![检测效果图](screenshot/traffic%20light10.jpg)
