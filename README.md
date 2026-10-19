@@ -22,7 +22,9 @@
 pip install -r requirements.txt
 ```
 
-四、项目目录结构
+## 四、项目目录结构
+
+```text
 traffic-light-yolov8-detect/
 ├── test_images/          # 示例测试图片文件夹
 ├── screenshot/           # 项目效果图（README 展示用）
@@ -33,7 +35,9 @@ traffic-light-yolov8-detect/
 ├── README.md             # 项目说明文档
 └── best.pt               # 已训练好的最优模型权重
 
-五、操作步骤
+```
+
+## 五、操作步骤
 1. 输入数据准备
 数据存放：项目根目录下的 test_images 文件夹中已存放了示例红绿灯图片，您也可以选择本地任意路径的图片。
 
@@ -50,7 +54,7 @@ python predict_pic.py
 
 (注：项目根目录的 screenshot 文件夹中存放了已完成检测的示例效果图，可直接查看参考)
 
-六、界面说明 (GUI 可视化操作流程)
+## 六、界面说明 (GUI 可视化操作流程)
 选择图片：点击「选择图片」按钮，从 test_images 文件夹或本地任意路径选择需要检测的图片。
 
 调节阈值：拖动滑块调节「置信度阈值」（默认 0.25）。数值越高，检测条件越严格；可根据图片的清晰度与场景复杂度进行微调。
@@ -59,11 +63,12 @@ python predict_pic.py
 
 清空重置：点击「清空内容」可重置界面，以便重新选择图片进行下一轮检测。
 
-七、效果展示
-1. 可视化界面 (PyQt5 GUI)
-https://screenshot/GUI.png
+## 七、效果展示
 
-2. 多场景检测效果
-https://screenshot/traffic_light7.jpg
-https://screenshot/traffic_light9.jpg
-https://screenshot/traffic_light10.jpg
+**1. 可视化界面 (PyQt5 GUI)**
+![GUI界面](screenshot/GUI.png)
+
+**2. 多场景检测效果**
+![检测效果1](screenshot/traffic_light7.jpg)
+![检测效果2](screenshot/traffic_light9.jpg)
+![检测效果3](screenshot/traffic_light10.jpg)
