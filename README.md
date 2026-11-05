@@ -50,7 +50,7 @@ python predict_pic.py
 3. 结果输出路径
 带检测框的图片：自动保存至 runs/predict/pic_result/result/（与原图同名）。
 
-统计总表：记录在 runs/predict/pic_result/result/灯光分类统计总表.txt 中。
+统计总表：记录在 runs/predict/pic_result/result/灯色分类统计总表.txt 中。
 
 (注：项目根目录的 screenshot 文件夹中存放了已完成检测的示例效果图，可直接查看参考)
 
