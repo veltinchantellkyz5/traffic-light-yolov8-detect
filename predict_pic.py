@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 class TrafficLightDetectWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        self.model_path = "runs/detect/train/weights/best.pt"
+        self.model_path = "best.pt"
         self.save_path = "runs/predict/pic_result/result"
         self.total_stats_txt_path = os.path.join(self.save_path, "灯色分类统计总表.txt")
         self.temp_dir = "temp_preprocess"
